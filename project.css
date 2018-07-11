@@ -37,7 +37,69 @@ img {
     width: 100%;
 }
 
+.btn{
+    display: inline-flex;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 150px;
+    /*/*width: 200px;
+    height: 120px;*/
+    /*width: 25%;
+    margin-left: 0%;*/
+   /* margin-right: 30%*/*/
+}
+
+
+/* The Modal (background) */
+.modal {
+    background-color: #e0876a;
+    background-color: #fff2df;
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    padding-top: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1; /* Sit on top */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: white;
+    border: 1px solid #4B0082;
+    border-style: double;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #DAA520;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .button{
+    display: inline-flex;
     background-color: #f4a688;
     border: none;
     color: white;
@@ -48,7 +110,7 @@ img {
     display: inline-block;
     font-size: 16px;
     text-align: center;
-    width: 40%;
+    /*width: 25%;
     margin-left: 30%;
-    margin-right: 30%
+    margin-right: 0%*/
 }
