@@ -21,9 +21,6 @@ window.onclick = function(event) {
 }
 
 
-
-
-
 //Slideshow
 $("#slideshow > div:gt(0)").hide();
 
@@ -34,4 +31,4 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#slideshow');
-},  3000);
+},  10000);

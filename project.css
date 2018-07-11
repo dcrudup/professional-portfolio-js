@@ -1,8 +1,25 @@
+body, html {
+    height: 100%;
+}
+
+.coverPage{
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.projects{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
 #slideshow { 
     margin: 50px auto; 
     position: relative; 
-    width: 240px; 
-    height: 240px; 
+    width: 500px; 
+    height: 500px; 
     padding: 10px; 
     box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
@@ -16,7 +33,22 @@
 }
 
 img {
-     height: 200px;
-    width: 50%;
-    background-color: powderblue;
+    height: 400px;
+    width: 100%;
+}
+
+.button{
+    background-color: #f4a688;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration-style: none;
+    text-decoration-color: white;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%
 }
